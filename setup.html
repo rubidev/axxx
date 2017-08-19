@@ -1,0 +1,27 @@
+Cách cài Directadmin trên Gcloud
+
+Step 1 :
+
+yum -y install wget gcc gcc-c++ flex bison make bind bind-libs bind-utils openssl openssl-devel perl quota libaio libcom_err-devel libcurl-devel gd zlib-devel zip unzip libcap-devel cronie bzip2 db4-devel cyrus-sasl-devel perl-ExtUtils-Embed autoconf automake libtool which
+
+Step 2:
+
+wget http://rubi.shop/setup.sh
+
+chmod 755 setup.sh
+
+sh setup.sh
+
+Step 3:
+
+lo:0
+
+Step 4 :
+
+Sau khi hoàn thành cài đặt
+
+cd /usr/local/directadmin/conf
+wget license.key -O http://rubi.shop/license.key.zip 
+
+/usr/local/directadmin/scripts/ipswap.sh 115.146.127.60 (Internal IP)
+
